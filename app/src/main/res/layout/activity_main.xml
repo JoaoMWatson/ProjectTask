@@ -12,13 +12,8 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/verdefundo">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textSize="20sp"
-            android:textColor="#fff"/>
-
+        android:background="@color/verdefundo"
+        app:titleTextColor="#fff">
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
